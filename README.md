@@ -15,9 +15,11 @@ A Jenkins command for Slack to start a build
 
 ## Installation
 
-### 1. Spin up instance Heroku
+### 1. Spin up Heroku instance
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/joshdholtz/jenkins-slack-command)
+
+*You will not have all environment variables until step 2 and step 3 are complete*
 
 ### 2. Setup Slack integrations
 
