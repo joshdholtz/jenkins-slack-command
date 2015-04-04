@@ -7,6 +7,12 @@ A Jenkins command for Slack to start a build
 **Incoming Webhook**
 ![](screenshots/incoming_webhook.png)
 
+## Features
+- Start a build
+  - `/jenkins MyAwesomeApp`
+- Start a parameterized build
+  - `/jenkins MyAwesomeApp param1=value1 param2=value2`
+
 ## Installation
 
 ### 1. Spin up instance Heroku
