@@ -1,9 +1,11 @@
 # jenkins-slack-command
 A Jenkins command for Slack
 
-```
-/jenkins MyAwesomeApp
-```
+**Slack Command**
+![](screenshots/command.png)
+
+**Incoming Webhook**
+![](screenshots/incoming_webhook.png)
 
 ## Installation
 
