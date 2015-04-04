@@ -4,10 +4,10 @@ require 'json'
 require 'slack-notifier'
 
 get '/' do
-  "Hello, world"
+  "This is a thing"
 end
 
-post '/build' do
+post '/' do
 
   # Verify all environment variables are set
   return [403, "No slack token setup"] unless slack_token = ENV['SLACK_TOKEN']
