@@ -1,0 +1,23 @@
+{
+  "name": "Jenkins Slack Command Sample",
+  "description": "An instance for Jenkins Slack Command for starting builds",
+  "repository": "https://github.com/joshdholtz/jenkins-slack-command",
+  "keywords": ["jenkins", "slack", "command", "awesome"],
+  "env": {
+    "SLACK_TOKEN": {
+      "description": "Token from your 'Slash Command'",
+      "required": true
+    },
+    "SLACK_WEBHOOK_URL": {
+      "description": "Your incoming webhook URL"
+    }
+    "JENKINS_URL": {
+      "description": "URL to your Heroku instnace",
+      "required": true
+    },
+    "JENKINS_TOKEN": {
+      "description": "API token of your user in Jenkins",
+      "required": true
+    }
+  }
+}
