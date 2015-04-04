@@ -1,5 +1,5 @@
 # jenkins-slack-command
-A Jenkins command for Slack
+A Jenkins command for Slack to start a build
 
 **Slack Command**
 ![](screenshots/command.png)
