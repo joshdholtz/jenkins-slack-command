@@ -19,7 +19,7 @@ A Jenkins command for Slack to start a build
 
 - Create a new "Slash Command"
   - Name command `/jenkins`
-  - Set the URL to the url of your Heroku instance (created in [step 3](hehe))
+  - Set the URL to the url of your Heroku instance (created in [step 3](#3-spin-up-heroku-instance))
   - Method should be POST
   - Label should be 'Jenkins' or whatevs
 - Create a new "Inbound Webhook" (Optional)
