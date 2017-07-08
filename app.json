@@ -18,14 +18,6 @@
     "JENKINS_TOKEN": {
       "description": "API token of your user in Jenkins",
       "required": true
-    },
-    "JENKINS_USER": {
-      "description": "User which will invoke remote job",
-      "required": true
-    },
-    "JENKINS_USER_TOKEN": {
-      "description": "User token for authentication",
-      "required": true
     }
   }
 }
