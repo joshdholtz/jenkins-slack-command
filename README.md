@@ -40,7 +40,7 @@ Start a build in Jenkins using a Slack Command
  - `JENKINS_URL` - URL to your jenkins host
    - NOTE: if your jenkins requires authentication url will look like `http://user:auth-token@your-jenkins-host:port`. To obtain user authentication token click your name on the top right corner on every page, then click "Configure" to see your API token. (The URL `$host/me/configure` is a good shortcut.), 
  - `JENKINS_TOKEN` - API token for jenkins job. 
-   - NOTE: you will need to enable remote remote builds for every job you would like invoke remotely. Enable "Trigger builds remotely (e.g., from scripts)" under `Bild Triggers` section in job configuration. Then input the token and save. You will need to use same token for all the jobs you are planning to invoke from slack, otherwise jenkins will fail with authentication error.
+   - NOTE: you will need to enable remote builds for every job you would like to invoke remotely. Turn on "Trigger builds remotely (e.g., from scripts)" checkbox under `Bild Triggers` section in job configuration. Then input any random token and save. You will need to use the same token for all jobs you are planning to build from slack remotely, otherwise jenkins will fail with authentication error.
 - Optional environment variables
   - `SLACK_WEBHOOK_URL` - your incoming webhook URL
   
